@@ -12,14 +12,14 @@
       <div class="dropdown">
         <button class="dropbtn">Ver mas</button>
         <div class="dropdown-content">
-          <a :href="logros" target="_blank">Logros</a>
-          <a :href="cv" target="_blank">CV</a>
+          <a :href="logros">Logros</a>
+          <a :href="cv">CV</a>
         </div>
       </div>
       <div class="botones-movil">
-        <a :href="logros" target="_blank" class="boton-cv">Logros</a>
+        <a :href="logros" class="boton-cv">Logros</a>
         <p style="width: 2px; background-color: white;"></p>
-        <a :href="cv" target="_blank" class="boton-logros">CV</a>
+        <a :href="cv" class="boton-logros">CV</a>
       </div>
     </div>
   </div>
